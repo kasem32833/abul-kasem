@@ -10,7 +10,7 @@ body{
 .container{
     width: 90%;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 button{
     background-color: blueviolet;
@@ -240,11 +240,17 @@ button{
 .footer{
     background-color: white;
     padding: 30px 0;
+    color: #c2bdbd;
+    font-size: 14px;
 }
 .footer-content{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.footer .menu ul li a{
+    color: #c2bdbd;
+    font-size: 14px;
 }
 
 form input{
